@@ -5,22 +5,23 @@ As time goes by, surrounding circumstances(for example Java version or Docker) w
 
 - New feature and changes
   * Support Java 1.8
-    nGrinder now support Java 1.8. Controller supports java 1.7 or above and Agent supports java 1.6 or above.
+    * nGrinder now support Java 1.8. Controller supports java 1.7 or above and Agent supports java 1.6 or above.
   * Provide elaborated script generator
-    Since nGrinder 3.0, we provided the script generation wizard that helps you easily create a default script.
-    However, it only created simple script for GET method case and pepole frequently asked to us how to use the other methods and how to use cookies and headers in the script.
-    In nGrinder 3.4, you can choose one of methods such as GET, POST and set HTTP headers and cookies even form data on the wizard dialog, then it will create useful example codes for you.
-  * Provde brand new nGrinder script recorder
-    A few years ago, we had released a script recorder based on JXBrowser. However it was not easy to run it due to several reasons.
-    Now, we have developed brand-new script recorder from the beginning using the Chrome extension technology. If you are using Chrome browser, you have only to install nGrinder Script Recorder package.
-    See https://github.com/naver/ngrinder/wiki/nGrinder-Recorder-Guide
+    * Since nGrinder 3.0, we provided the script generation wizard that helps you easily create a default script.
+      However, it only created simple script for GET method case and pepole frequently asked to us how to use the other methods and how to use cookies and headers in the script.
+    * In nGrinder 3.4, you can choose one of methods such as GET, POST and set HTTP headers and cookies even form data on the wizard    dialog, then it will create useful example codes for you.
+  * Provide brand new nGrinder script recorder
+    * A few years ago, we had released a script recorder based on JXBrowser. However it was not easy to run it due to several reasons.
+      Now, we have developed brand-new script recorder from the beginning using the Chrome extension technology. If you are using Chrome browser, you have only to install nGrinder Script Recorder package.
+    * See https://github.com/naver/ngrinder/wiki/nGrinder-Recorder-Guide
   * Provide dockerized nGrinder supporting easy clustering
-    Now, dockerize is becoming as one of fashions now. You can easily run dockerized nGrinder. See https://hub.docker.com/r/ngrinder/controller/
+    * Now, dockerize is becoming as one of fashions now. You can easily run dockerized nGrinder. 
+    * See https://hub.docker.com/r/ngrinder/controller/
   * Introduce new plugin architecture based on the PF4J
-    Previously we have used Atlassian Plugin Framework(APF) for plugin architecture. We found out it was too overwhelmed way for ngrinder features and found there are no developers using it.
-    So we drop APF and adopt PF4J instead. See https://github.com/naver/ngrinder/wiki/How-to-develop-plugin for details.
+    * Previously we have used Atlassian Plugin Framework(APF) for plugin architecture. We found out it was too overwhelmed way for      ngrinder features and found there are no developers using it.
+    * So we dropped APF and adopt PF4J instead. See https://github.com/naver/ngrinder/wiki/How-to-develop-plugin for details.
   * Add intro.js for easy understanding.
-    You can find the very small button "Tip" on every pages. Click it and you will know what it is.
+    * You can find the very small button "Tip" on every pages. Click it and see what it is.
 
 Bug 
 
